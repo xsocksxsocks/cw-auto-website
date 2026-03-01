@@ -42,7 +42,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
         <div className="container mx-auto px-4 py-8">
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             <div>
-              <h3 className="mb-2 font-semibold text-foreground">CW Auto Export Service UG</h3>
+              <img src={logo} alt="CW Auto Export Logo" className="mb-2 h-12 w-auto" />
               <p className="text-sm text-muted-foreground">
                 Ihr zuverlässiger Partner für Autohandel und Export in Augsburg.
               </p>
