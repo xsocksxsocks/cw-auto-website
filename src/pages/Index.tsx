@@ -1,5 +1,6 @@
-import { Mail, Phone, MapPin, Car } from "lucide-react";
+import { Mail, Phone, MapPin } from "lucide-react";
 import Layout from "@/components/Layout";
+import logo from "@/assets/logo.png";
 
 const Index = () => {
   return (
@@ -7,7 +8,7 @@ const Index = () => {
       {/* Hero */}
       <section className="bg-primary px-4 py-16 text-center">
         <div className="container mx-auto">
-          <Car className="mx-auto mb-4 h-12 w-12 text-primary-foreground" />
+          <img src={logo} alt="CW Auto Export Logo" className="mx-auto mb-4 h-20 w-auto brightness-0 invert" />
           <h1 className="mb-3 text-3xl font-bold text-primary-foreground sm:text-4xl">
             CW Auto Export Service
           </h1>
