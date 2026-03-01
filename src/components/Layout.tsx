@@ -1,5 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import { Phone, Mail, MapPin } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const navItems = [
   { label: "Startseite", path: "/" },
@@ -14,8 +15,8 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
     <div className="flex min-h-screen flex-col">
       <header className="border-b bg-background">
         <div className="container mx-auto flex flex-col items-center justify-between gap-3 px-4 py-4 sm:flex-row">
-          <Link to="/" className="text-xl font-bold text-primary">
-            CW Auto Export Service
+          <Link to="/" className="flex items-center gap-2">
+            <img src={logo} alt="CW Auto Export Logo" className="h-10 w-auto" />
           </Link>
           <nav className="flex gap-1">
             {navItems.map((item) => (
