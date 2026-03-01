@@ -16,7 +16,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
       <header className="border-b bg-background">
         <div className="container mx-auto flex flex-col items-center justify-between gap-3 px-4 py-4 sm:flex-row">
           <Link to="/" className="flex items-center gap-2">
-            <img src={logo} alt="CW Auto Export Logo" className="h-10 w-auto" />
+            <img src={logo} alt="CW Auto Export Logo" className="h-16 w-auto" />
           </Link>
           <nav className="flex gap-1">
             {navItems.map((item) => (
